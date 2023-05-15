@@ -1,0 +1,13 @@
+:root{
+    --primaryfont : Arial, Times New Roman, Georgia;
+    --accentfont : Garamond, Bodoni, Didot;
+    --primaryColor : #393646;
+    --secondaryColor : #4F4557;
+    --thirthColor : #6D5D6E;
+    --fourthColor : #F4EEE0;
+    --bgChocolate : #86492bed;
+    --bgDgrey : #1B2430;
+    --bgDpurple : #46244C;
+    --bg :     rgba(190, 190, 190, 0.22);
+
+}
