@@ -17,6 +17,7 @@ img{
 #content{
     width:100vw;
     height: 100vh;
+    min-width: 1600px;
     background: linear-gradient(237deg, var(--bgDpurple), rgba(255,0,0,0) 70.71%), 
                 linear-gradient(147deg,  var(--bgChocolate), rgba(0,255,0,0) 70.71%), 
                 linear-gradient(356deg, var(--bgDgrey), rgba(0,0,255,0) 70.71%);
