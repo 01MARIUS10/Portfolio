@@ -1,6 +1,17 @@
 @import url(./variable.css);
 
-  
+@keyframes degradeOpacity {
+    from{opacity:1;}
+    to{opacity:0;}
+}
+@keyframes upgradeOpacity {
+    from{opacity:1;}
+    to{opacity:0;}
+}
+.box{
+    /* opacity: 0; */
+    transition: degradeOpacity 2s;
+}
 @media only screen and (max-width: 2400px) {
     *{
         margin:0;
