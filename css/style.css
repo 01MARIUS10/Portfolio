@@ -33,6 +33,7 @@
     width:100vw;
     height: 100vh;
     min-width: 1300px;
+    min-height: 800px;
     background: linear-gradient(237deg, var(--bgDpurple), rgba(255,0,0,0) 70.71%), 
                 linear-gradient(147deg,  var(--bgChocolate), rgba(0,255,0,0) 70.71%), 
                 linear-gradient(356deg, var(--bgDgrey), rgba(0,0,255,0) 70.71%);
@@ -67,7 +68,7 @@
     background:#b27f7f40;
     border-radius: 50px;
     width:85%;
-    height: 80vh;
+    height: 83%;
     box-shadow:inset 1px 1px 16px 0px #8478784d;
     background: rgba(185, 161, 161, 0.22);
 }
@@ -105,6 +106,9 @@
     box-shadow:inset 1px 1px 16px 0px #8478784d;
     background: var(--bg);
     z-index:1;
+}
+.emoji{
+    font-size: 1.5rem;
 }
 @media only screen and (max-width: 2400px) {
     
@@ -151,7 +155,7 @@
         display: flex;
         align-items: center;
       }
-      .indexContent button>*{
+      .indexContent button *{
         color:white;
       }
       
@@ -196,8 +200,6 @@
         justify-content: space-around;
         align-content: center;
         padding: 40px 70px 0 70px;
-        height: 30% ;
-        /* width: 100%; */
     }
     .presentationModule .head .headText{
         display: flex;
@@ -218,13 +220,18 @@
     .presentationModule .head .headText h3{
         font-size: 1.6rem;
         margin-bottom: 15px;
+        font-weight: bold;
     }
     .presentationModule .head .headText p{
         font-size: 1.3rem;
-        margin-bottom: 15px;
+        margin-bottom: 8px;
     }
     .presentationModule .head .headText .softSkills{
         margin-bottom: 15px;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 4px;
     }
     .softSkills{
         margin-top: 10px;
@@ -259,26 +266,26 @@
         transform: rotate3d(1, -1, 3, 173deg) translate(-23px, -142px);
         z-index: -1;
     }
-    .presentationModule .head .r{
+    .presentationModule .head .r {
         position: absolute;
         content: " ";
         top: 0;
         left: 0;
-        width: 60px;
-        height: 100px;
+        width: 142px;
+        height: 180px;
         background: #710909;
         border: solid 2px yellow;
         border-radius: 50%;
-        transform: rotate3d(1, -1, 3, 29deg) translate(146px, -18px);
+        transform: rotate3d(1, 1, -1, -177deg) translate(142px, 210px);
         z-index: -1;
-    }
+      }
     .presentationModule .head .g{
         position: absolute;
         content: " ";
         top: 0;
         left: 0;
         width: 105px;
-        height: 83%;
+        height: 83px;
         background: #710909;
         border: solid 2px yellow;
         border-radius: 50%;
@@ -296,7 +303,7 @@
         border: solid 2px #710909;
         border-radius: 50%;
         transform: rotate3d(-1, 1, 1, 142deg) translate(-259px,140px);
-        z-index: -1;
+        z-index: -2;
     }
     .presentationModule .head .image img{
         border-radius: 50%;
@@ -347,13 +354,12 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
-        height: 85%;
+        height: 100%;
+        gap: 4px;
     }
     .projects .cardProject{
         display: flex;
         flex-direction: column;
-        width:27%;
-        /* height: 100%; */
         border-radius: 30px;
         padding:30px;
         background: var(--thirthColor);
@@ -463,9 +469,7 @@
         display: flex;
         justify-content: space-around;
         align-content: center;
-        padding: 40px 70px 0 70px;
-        height: 30% ;
-        /* width: 100%; */
+        padding: 36px 70px 0 70px;
     }
     .presentationModule .head .headText{
         display: flex;
@@ -478,11 +482,11 @@
     }
     .presentationModule .head .headText h3{
         font-size: 1.6rem;
-        margin-bottom: 15px;
+        margin-bottom: 4px;
     }
     .presentationModule .head .headText p{
         font-size: 1.2rem;
-        margin-bottom: 15px;
+        margin-bottom: 8px;
     }
     .presentationModule .head .headText .softSkills{
         margin-bottom: 15px;
@@ -509,53 +513,62 @@
     .presentationModule .head .image:before{
         position: absolute;
         content: " ";
-        top: 0;
-        left: 0;
-        width: 169px;
-        height: 100px;
+        top: 50%;
+        left: 50%;
+        width: 200px;
+        height: 85px;
         background: darkkhaki;
         border: solid 2px #710909;
         border-radius: 50%;
-        transform: rotate3d(1, -1, 3, 173deg) translate(-23px, -142px);
+        /* transform: rotate3d(1, -1, 3, 173deg) translate(-23px, -142px); */
+        /* transform: rotate3d(1, -1, 3, 171deg) translate(-1px, -116px); */
+        /* transform: rotate3d(1, -1, 3, 173deg) translate(-23px, -142px); */
+        /* transform: rotate3d(1, -1, 3, 171deg) translate(17px, -145px); */
+        /* transform: rotate3d(1, -1, 1, 171deg) translate(-50%, -50%); */
+        transform: rotate3d(1, 1, 1, -41deg) translate(-50%, -50%);
         z-index: -1;
+    }
+
     }
     .presentationModule .head .r{
         position: absolute;
         content: " ";
-        top: 0;
-        left: 0;
-        width: 60px;
-        height: 100px;
+        top: 50%;
+        left: 50%;
+        width: 245px;
+        height: 145px;
         background: #710909;
         border: solid 2px yellow;
         border-radius: 50%;
-        transform: rotate3d(1, -1, 3, 29deg) translate(146px, -18px);
+        /* transform: rotate3d(1, -1, 3, 29deg) translate(146px, -18px); */
         z-index: -1;
+        transform: rotate3d(2, 4, -2, -280deg) translate(-50%, -50%);
     }
     .presentationModule .head .g{
         position: absolute;
         content: " ";
-        top: 0;
-        left: 0;
-        width: 105px;
-        height: 83%;
+        top: 50%;
+        left: 50%;
+        width: 240px;
+        height: 200px;
         background: #710909;
         border: solid 2px yellow;
         border-radius: 50%;
-        transform: rotate3d(1, -1, 3, 46deg) translate(68px, 2px);
+        /* transform: rotate3d(1, -1, 3, 46deg) translate(68px, 2px); */
+        transform:rotate3d(-25, -21, -2, -251deg) translate(-50%, -50%);
         z-index: -2;
     }
     .presentationModule .head .image:after{
         position: absolute;
         content: " ";
-        top: 0px;
-        left: 0px;
-        width: 293px;
-        height: 152px;
+        top: 50%;
+        left: 50%;
+        width: 160px;
+        height: 131px;
         background: darkkhaki;
         border: solid 2px #710909;
         border-radius: 50%;
-        transform: rotate3d(-1, 1, 1, 142deg) translate(-259px,140px);
+        transform: rotate3d(6, 8, 3, -194deg) translate(-50%, -50%);
         z-index: -1;
     }
     .presentationModule .head .image img{
@@ -606,14 +619,12 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
-        height: 75%;
+        height: 100%;
         gap: 4px;
     }
     .projects .cardProject{
         display: flex;
         flex-direction: column;
-        width:27%;
-        /* height: 100%; */
         border-radius: 30px;
         padding:30px;
     }
@@ -631,10 +642,13 @@
         flex-direction: column;
         width:100%;
         height: 40%;
-        margin-bottom: 5px;
+        margin-bottom: 10px;
     }
     .projects .cardProject .card_text , .projects  .skillsProject p{
         font-size: 1.1rem;
+    }
+    .projects .cardProject .card_text p, .projects  .skillsProject p{
+        margin-bottom: 0px;
     }
     .projects  .card_text span,.projects  .skillsProject p{
         font-weight: bold;
@@ -653,6 +667,55 @@
     }
 }
 
+@media only screen and (max-height: 1000px) {
+    .card {
+        width: 90%;
+        height: 90%;
+      }
+      .projects .cardProject .card_title {
+        margin-bottom: 8px;
+      }
+      .projects .cardProject .card_text p, .projects .skillsProject p {
+        margin-bottom: 0;
+      }
+}
+@media only screen and (max-height: 900px) {
+    .card {
+        width: 90%;
+        height: 90%;
+      }
+    .presentationModule .head .headText h3 {
+        font-size: 1.6rem;
+        margin-bottom: 2px;
+        font-weight: bold;
+      }
+      .presentationModule .head .headText p {
+        /* font-size: 1.3rem; */
+        margin-bottom: 3px;
+      }
+      .projects .cardProject .card_title {
+        margin-bottom: 0px;
+      }
+      .projects .cardProject .card_title h3{
+        font-size: 1.4rem;
+    }
+    .projects .cardProject .card_image {
+        margin-bottom: 4px;
+      }
+      .projects .cardProject {
+        padding: 24px;
+      }
+      .projects .cardProject .card_text, .projects .skillsProject p {
+        font-size: 1.2rem;
+      }
+      .projects .cardProject .card_text p{
+        margin-bottom: 0;
+      }
+      .projects .skillsProject {
+        flex-direction: row;
+        margin: 2px 0 0 0;
+      }
+}
 
 
 
