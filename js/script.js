@@ -1,12 +1,19 @@
 var cardAffiche = {
+    init:function(){
+        this.showIndex()
+    },
     showThatCard :function(id){
-        console.log(id)
-        if(id==0){
-            this.showIndex()
-        }
-        else{
-            this.showCard(id)
-        }
+        console.log(document.querySelector(".box:not(.noneThat)"))
+        this.dismisOpacity(document.querySelector(".box:not(.noneThat)"))
+        setTimeout(()=>{
+            this.removeStyle(document.querySelector(".box:not(.noneThat)"))
+            if(id==0){
+                this.showIndex()
+            }
+            else{
+                this.showCard(id)
+            }
+        },1200)
     },
     showIndex:function(){
         let cards = document.querySelectorAll(".card");
@@ -30,7 +37,13 @@ var cardAffiche = {
                 e.setAttribute("transform","translate(-46%,-50%)")
             }
         });
-        
+    },
+    dismisOpacity: function(el){
+        el.style.transition = "opacity 1.2s";
+        el.style.opacity = 0;
+    },
+    removeStyle:function(el){
+        el.setAttribute("style","")
     }
 
 }
@@ -59,7 +72,6 @@ var projects = {
         let id = `tricards${this.activeTricards}`
         let tricards = document.querySelectorAll(".projects .tricards");
         tricards.forEach(e=>{
-            console.log(e)
             if(e.id!=id){
                 e.classList.add("noneThat")
             }
@@ -69,7 +81,6 @@ var projects = {
             e.setAttribute("style","")
         })
         this.checkButton()
-        this.removeopacityclass()
     },
     nextShowTriCards : function(){
         this.dismisOpacity()
@@ -79,7 +90,6 @@ var projects = {
                 this.showTriCards()
             }
         },1200)
-        // console.log("click id is"+this.activeTricards)
     },
     precShowTriCards : function(){
         this.dismisOpacity()
@@ -89,7 +99,6 @@ var projects = {
                 this.showTriCards()
             }
         },1200)
-        // console.log("click id is"+this.activeTricards)
     },
     dismisOpacity: function(){
         let id = `#tricards${this.activeTricards}`
@@ -99,7 +108,6 @@ var projects = {
     }
 }
 
-cardAffiche.showThatCard(0);
+cardAffiche.init();
 projects.init();
 projects.showTriCards();
-projects.nextShowTriCards()
