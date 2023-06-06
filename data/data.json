@@ -2,13 +2,13 @@
     "projects":[
         {
             "title":"Gestion des A",
-            "image":"/image/project/projectImage.png",
+            "image":"./image/project/projectImage.png",
             "description":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit quo placeat, magni ipsa quasi corrupti esse ducimus quod suscipit excepturi blanditiis.",
             "skills":[
-                "/image/skills/html.png",
-                "/image/skills/css.png",
-                "/image/skills/vuejs.png",
-                "/image/skills/laravel.png"
+                "./image/skills/html.png",
+                "./image/skills/css.png",
+                "./image/skills/vuejs.png",
+                "./image/skills/laravel.png"
             ],
             "github":"https://github.com",
             "website":"https://01marius10-mypizzeria.netlify.app"
