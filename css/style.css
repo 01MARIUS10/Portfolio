@@ -34,6 +34,9 @@
     font-family: Arial, Times New Roman, Georgia;
     /* font-family: Garamond, Bodoni, Didot;  accentuation*/
 }
+.m-0{
+    margin:0 !important;
+}
 .noneThat{
     display: none !important;
 }
@@ -48,8 +51,8 @@
 #content{
     width:100vw;
     height: 100vh;
-    min-width: 1300px;
-    min-height: 800px;
+    /* min-width: 1300px; */
+    /* min-height: 800px; */
     background: linear-gradient(237deg, var(--bgDpurple), rgba(255,0,0,0) 70.71%), 
                 linear-gradient(147deg,  var(--bgChocolate), rgba(0,255,0,0) 70.71%), 
                 linear-gradient(356deg, var(--bgDgrey), rgba(0,0,255,0) 70.71%);
@@ -97,17 +100,19 @@
     transform: translate(-48%,-48%);
     z-index: 4;
     background: rgba(185, 161, 161, 0.22);
+    padding: 100px;
 }
 .cardInactive2{
     transform: translate(-50%,-50%);
     z-index: 3;
     background: rgba(185, 161, 161, 0.17);
-
+    padding: 100px;
 }
 .cardInactive3{
     transform: translate(-52%,-52%);
     z-index: 2;
     background: rgba(185, 161, 161, 0.12);
+    padding: 100px;
 }
 #index, .index{
     top:30px;
@@ -124,7 +129,7 @@
     z-index:1;
 }
 .emoji{
-    font-size: 1.5rem;
+    font-size: 26px;
 }
 @media only screen and (max-width: 2400px) {
     
@@ -145,17 +150,18 @@
         margin-bottom: 20px;
     }
     .indexContent h3 {
-        font-size: 2.8em; /* Taille du titre "Hi I'm RAZAFITSALAMA Marius" */
+        font-size: 30px;
+        font-size: 28px; /* Taille du titre "Hi I'm RAZAFITSALAMA Marius" */
         font-weight: lighter; /* Éventuellement, pour mettre en gras */
     }
     
     .indexContent h1 {
-        font-size: 3.4em; /* Taille du titre "I am a BackEnd Developer" */
+        font-size: 34px; /* Taille du titre "I am a BackEnd Developer" */
         font-weight: bold; /* Éventuellement, pour mettre en gras */
     }
     
     .indexContent p {
-        font-size: 1.4em; /* Taille du paragraphe */
+        font-size: 22px; /* Taille du paragraphe */
         line-height: 1.5; /* Hauteur de ligne pour un espacement adéquat entre les lignes */
     }
     
@@ -164,7 +170,7 @@
         font:var(--accentfont);
         color: #fff; /* Couleur du texte */
         padding: 15px 22px; /* Espacement intérieur (haut-bas, gauche-droite) */
-        font-size: 1.2em; /* Taille de la police */
+        font-size: 18px; /* Taille de la police */
         border: none; /* Supprimer la bordure du bouton */
         border-radius: 12px;
         cursor: pointer; /* Curseur de souris en pointeur au survol */
@@ -227,19 +233,19 @@
     }
     .presentationModule .head .headText{
         width:60%;
-        font-size:1.3rem;
+        font-size:20px;
     }
     .presentationModule .head .headText{
         width:60%;
-        font-size:1.2rem;
+        font-size:18px;
     }
     .presentationModule .head .headText h3{
-        font-size: 1.6rem;
+        font-size: 24px;
         margin-bottom: 15px;
         font-weight: bold;
     }
     .presentationModule .head .headText p{
-        font-size: 1.3rem;
+        font-size: 20px;
         margin-bottom: 8px;
     }
     .presentationModule .head .headText .softSkills{
@@ -258,12 +264,12 @@
         border-radius: 5px;
         padding:7px 13px;
         margin:0 5px 0 0;
-        font-size: 1.2rem;
+        font-size: 18px;
     }
     .softSkills .mate *{
         background: #710909;
         color:var(--bgFont);
-        font-size: 1.2rem;
+        font-size: 18px;
     }
     .softSkills .mate:hover{
         transform: scale(1.1);
@@ -347,13 +353,14 @@
         background-size: contain;
         background-repeat: no-repeat;
         content:" ";
-        top:160px;
+        top:50%;
+        transform: translateY(-50%);
         right: 2%;
         width: 50px;
-        height: 80px;
+        height: 50px;
     }
     .projects .precedent:hover {
-        transform:rotate(180deg) scale(1.3);
+        transform:rotate(180deg) translateY(50%) scale(1.3);
     }
     .projects .precedent {
         padding:0 15px;
@@ -361,15 +368,15 @@
         background: url("../image/icon/right-chevron.png");
         background-size: contain;
         background-repeat: no-repeat;
-        transform: rotate(180deg);
         content:" ";
-        top:160px;
+        top:50%;
+        transform: translateY(-50%) rotate(180deg);        
         left: 2%;
         width: 50px;
-        height: 80px;
+        height: 50px;
     }
     .projects .next:hover {
-        transform: scale(1.3);
+        transform:translateY(-50%) scale(1.3);
     }
     .projects .tricards{
         display: flex;
@@ -391,7 +398,7 @@
     }
     .projects .cardProject .card_title{
         margin-bottom: 15px;
-        font-size: 1.36rem;
+        font-size: 23px;
     }
     
     .projects .cardProject .card_title h3{
@@ -407,12 +414,32 @@
         /* background: rgb(165, 82, 82); */
         
     }
-    .projects .cardProject .card_text , .projects  .skillsProject p{
-        font-size: 1.24rem;
+    .projects .cardProject .card_text , .projects  .skillsProject p {
+        font-size: 19px;
     }
     .projects  .card_text span,.projects  .skillsProject p{
         color:var(--bgDgrey);
         font-weight: bold;
+    }
+    .link{
+        display: flex;
+        margin: 10px 0 0 0;
+        gap: 4px;
+    }
+    .link a{
+        font-size: 19px;
+        color:var(--thirthColor);
+        font-weight: bold;
+
+        background: var(--primaryColor);
+        padding: 2px;
+        border-radius: 5px;
+        margin: 0px 5px 0 0;
+        cursor:pointer;
+    }
+    .link a:hover{
+        box-shadow: 0 0 3px 1px var(--bgFont);
+        transform:scale(98%);
     }
     .projects .skillsProject{
         display: flex;
@@ -432,23 +459,23 @@
 }
 @media only screen and (max-width: 1600px) {
     .indexContent h3 {
-        font-size: 2rem; /* Taille du titre "Hi I'm RAZAFITSALAMA Marius" */
+        font-size: 22px; /* Taille du titre "Hi I'm RAZAFITSALAMA Marius" */
         font-weight: lighter; /* Éventuellement, pour mettre en gras */
     }
     
     .indexContent h1 {
-        font-size: 2.6rem; /* Taille du titre "I am a BackEnd Developer" */
+        font-size: 26px; /* Taille du titre "I am a BackEnd Developer" */
         font-weight: bold; /* Éventuellement, pour mettre en gras */
     }
     
     .indexContent p {
-        font-size: 1.4em; /* Taille du paragraphe */
+        font-size: 24px; /* Taille du paragraphe */
         line-height: 1.5; /* Hauteur de ligne pour un espacement adéquat entre les lignes */
     }
     
     .indexContent button {
         padding: 15px 22px; /* Espacement intérieur (haut-bas, gauche-droite) */
-        font-size: 1.2em; /* Taille de la police */
+        font-size: 18px; /* Taille de la police */
         border-radius: 12px;
         display: flex;
         align-items: center;
@@ -502,15 +529,16 @@
         flex-direction: column;
     }
     .presentationModule .head .headText{
-        width:60%;
-        font-size:1.2rem;
+        width:65%;
+        font-size:18px;
     }
     .presentationModule .head .headText h3{
-        font-size: 1.6rem;
+        font-size: 24px;
         margin-bottom: 4px;
     }
     .presentationModule .head .headText p{
-        font-size: 1.2rem;
+        font-size: 18px;
+        font-size: 18px;
         margin-bottom: 8px;
     }
     .presentationModule .head .headText .softSkills{
@@ -523,7 +551,8 @@
         border-radius: 5px;
         padding:7px 13px;
         margin:0 5px 0 0;
-        font-size: 1.2rem;
+        font-size: 18px;
+        font-size: 18px;
     }
     .softSkills .mate:hover{
         transform: scale(1.1);
@@ -554,7 +583,6 @@
         z-index: -1;
     }
 
-    }
     .presentationModule .head .r{
         position: absolute;
         content: " ";
@@ -603,7 +631,7 @@
     
     /* ===================== */
     .projects {
-        padding:0 100px;
+        padding:0 70px;
         height: 60%;
         position:relative;
         display: flex;
@@ -616,16 +644,15 @@
         background-size: contain;
         background-repeat: no-repeat;
         content:" ";
-        top:160px;
-        right: 2%;
+        right: 0%;
         width: 50px;
-        height: 80px;
+        height: 50px;
     }
     .projects .next:hover {
-        transform: scale(1.2);
+        transform: translateY(-50%) scale(1.2);
     }
     .projects .precedent:hover {
-        transform:rotate(180deg) scale(1.2);
+        transform:rotate(180deg)  translateY(50%) scale(1.2);
     }
     .projects .precedent {
         padding:0 15px;
@@ -633,12 +660,12 @@
         background: url("../image/icon/right-chevron.png");
         background-size: contain;
         background-repeat: no-repeat;
-        transform: rotate(180deg);
         content:" ";
-        top:160px;
+        top:50%;
+        transform: translateY(-50%) rotate(180deg);
         left: 2%;
         width: 50px;
-        height: 80px;
+        height: 50px;
     }
     .projects .tricards{
         display: flex;
@@ -655,7 +682,7 @@
     }
     .projects .cardProject .card_title{
         margin-bottom: 10px;
-        font-size: 1.2rem;
+        font-size: 18px;
     }
     
     .projects .cardProject .card_title h3{
@@ -670,7 +697,7 @@
         margin-bottom: 10px;
     }
     .projects .cardProject .card_text , .projects  .skillsProject p{
-        font-size: 1.1rem;
+        font-size: 16px;
     }
     .projects .cardProject .card_text p, .projects  .skillsProject p{
         margin-bottom: 0px;
@@ -691,7 +718,22 @@
         width: 30px;
     }
 }
-
+@media only screen and (max-width: 1300px){
+    .projects{
+        padding:0 50px;
+    }
+    .projects .next{
+        right:-1%;
+    }
+    .presentationModule .head{
+        padding:20px 10px 0 10px;
+    }
+}
+@media only screen and (max-width: 1100px){
+    .projects{
+        padding: 0;
+    }
+}
 @media only screen and (max-height: 1000px) {
     .card {
         width: 90%;
@@ -705,24 +747,34 @@
       }
 }
 @media only screen and (max-height: 900px) {
+    .hidden-w-900{
+        display: none;
+    }
     .card {
         width: 90%;
         height: 90%;
       }
+      /* .presentationModule .head {
+        padding: 10px 10px 0 10px;
+      } */
+      .presentationModule .head .headText {
+        width: 70%;
+        font-size: 18px;
+      }
     .presentationModule .head .headText h3 {
-        font-size: 1.6rem;
+        font-size: 24px;
         margin-bottom: 2px;
         font-weight: bold;
       }
       .presentationModule .head .headText p {
-        /* font-size: 1.3rem; */
+        /* font-size: 20px; */
         margin-bottom: 3px;
       }
       .projects .cardProject .card_title {
         margin-bottom: 0px;
       }
       .projects .cardProject .card_title h3{
-        font-size: 1.4rem;
+        font-size: 20px;
     }
     .projects .cardProject .card_image {
         margin-bottom: 4px;
@@ -731,7 +783,7 @@
         padding: 24px;
       }
       .projects .cardProject .card_text, .projects .skillsProject p {
-        font-size: 1.2rem;
+        font-size: 18px;
       }
       .projects .cardProject .card_text p{
         margin-bottom: 0;
@@ -740,6 +792,7 @@
         flex-direction: row;
         margin: 2px 0 0 0;
       }
+      
 }
 
 

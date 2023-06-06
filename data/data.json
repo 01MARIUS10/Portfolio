@@ -1,0 +1,125 @@
+{
+    "projects":[
+        {
+            "title":"Gestion des A",
+            "image":"/image/project/projectImage.png",
+            "description":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit quo placeat, magni ipsa quasi corrupti esse ducimus quod suscipit excepturi blanditiis.",
+            "skills":[
+                "/image/skills/html.png",
+                "/image/skills/css.png",
+                "/image/skills/vuejs.png",
+                "/image/skills/laravel.png"
+            ],
+            "github":"https://github.com",
+            "website":"https://01marius10-mypizzeria.netlify.app"
+        },
+        {
+            "title":"Gestion des B",
+            "image":"/image/project/projectImage.png",
+            "description":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit quo placeat, magni ipsa quasi corrupti esse ducimus quod suscipit excepturi blanditiis.",
+            "skills":[
+                "/image/skills/html.png",
+                "/image/skills/css.png",
+                "/image/skills/vuejs.png",
+                "/image/skills/laravel.png"
+            ],
+            "github":"https://github.com"
+        },
+        {
+            "title":"Gestion des C",
+            "image":"/image/project/projectImage.png",
+            "description":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit quo placeat, magni ipsa quasi corrupti esse ducimus quod suscipit excepturi blanditiis.",
+            "skills":[
+                "/image/skills/html.png",
+                "/image/skills/css.png",
+                "/image/skills/vuejs.png",
+                "/image/skills/laravel.png"
+            ],
+            "github":"https://github.com"
+        },
+        {
+            "title":"Gestion des D",
+            "image":"/image/project/projectImage.png",
+            "description":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit quo placeat, magni ipsa quasi corrupti esse ducimus quod suscipit excepturi blanditiis.",
+            "skills":[
+                "/image/skills/html.png",
+                "/image/skills/css.png",
+                "/image/skills/vuejs.png",
+                "/image/skills/laravel.png"
+            ],
+            "github":"https://github.com"
+        },
+        {
+            "title":"Gestion des E",
+            "image":"/image/project/projectImage.png",
+            "description":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit quo placeat, magni ipsa quasi corrupti esse ducimus quod suscipit excepturi blanditiis.",
+            "skills":[
+                "/image/skills/html.png",
+                "/image/skills/css.png",
+                "/image/skills/vuejs.png",
+                "/image/skills/laravel.png"
+            ],
+            "github":"https://github.com"
+        },
+        {
+            "title":"Gestion des F",
+            "image":"/image/project/projectImage.png",
+            "description":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit quo placeat, magni ipsa quasi corrupti esse ducimus quod suscipit excepturi blanditiis.",
+            "skills":[
+                "/image/skills/html.png",
+                "/image/skills/css.png",
+                "/image/skills/vuejs.png",
+                "/image/skills/laravel.png"
+            ],
+            "github":"https://github.com"
+        },
+        {
+            "title":"Gestion des G",
+            "image":"/image/project/projectImage.png",
+            "description":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit quo placeat, magni ipsa quasi corrupti esse ducimus quod suscipit excepturi blanditiis.",
+            "skills":[
+                "/image/skills/html.png",
+                "/image/skills/css.png",
+                "/image/skills/vuejs.png",
+                "/image/skills/laravel.png"
+            ],
+            "github":"https://github.com"
+        },
+        {
+            "title":"Gestion des H",
+            "image":"/image/project/projectImage.png",
+            "description":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit quo placeat, magni ipsa quasi corrupti esse ducimus quod suscipit excepturi blanditiis.",
+            "skills":[
+                "/image/skills/html.png",
+                "/image/skills/css.png",
+                "/image/skills/vuejs.png",
+                "/image/skills/laravel.png"
+            ],
+            "github":"https://github.com"
+        },
+        {
+            "title":"Gestion des I",
+            "image":"/image/project/projectImage.png",
+            "description":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit quo placeat, magni ipsa quasi corrupti esse ducimus quod suscipit excepturi blanditiis.",
+            "skills":[
+                "/image/skills/html.png",
+                "/image/skills/css.png",
+                "/image/skills/vuejs.png",
+                "/image/skills/laravel.png"
+            ],
+            "github":"https://github.com"
+        },
+        {
+            "title":"Gestion des J",
+            "image":"/image/project/projectImage.png",
+            "description":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit quo placeat, magni ipsa quasi corrupti esse ducimus quod suscipit excepturi blanditiis.",
+            "skills":[
+                "/image/skills/html.png",
+                "/image/skills/css.png",
+                "/image/skills/vuejs.png",
+                "/image/skills/laravel.png"
+            ],
+            "github":"https://github.com"
+        }
+    ]
+}
