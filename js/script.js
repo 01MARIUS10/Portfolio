@@ -1,5 +1,5 @@
 let gofetch = async () =>{
-    fetch('/Portfolio/data/data.json')
+    fetch('/data/data.json')
    .then(response => response.json())
    .then(data =>{ 
         cardAffiche.init(data.projects);

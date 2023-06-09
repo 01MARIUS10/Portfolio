@@ -32,6 +32,7 @@
     margin:0;
     color:black;
     font-family: Arial, Times New Roman, Georgia;
+    box-sizing: border-box !important;
     /* font-family: Garamond, Bodoni, Didot;  accentuation*/
 }
 .m-0{
@@ -737,6 +738,74 @@
         padding: 0;
     }
 }
+@media only screen and (max-width : 850px){
+    #content, #content .card{
+        height: auto !important;
+    }
+    #content, #content .box{
+        min-height: 100vh !important;
+    }
+    .index{
+        padding: 0;
+    }
+    #content>.box{
+        width:100%;
+        overflow: hidden;
+        position :static
+    }
+    .index .indexContent{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .indexContent .presentation{
+        width: 100%;
+        padding:15px;
+    }
+    .presentation>h1,.presentation>h3{
+        text-align: center;
+    }
+    .cardInactive1 , .cardInactive2, .cardInactive3{
+        display: none;
+    }
+    .presentationModule.card{
+        transform: none;
+    }
+
+    /*  */
+    .animated-border:hover{
+        animation: none;
+    }
+    .card .head{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+    .head .headText{
+        width: 100% !important;
+        padding: 15px;
+    }
+    .headText .softSkills{
+        margin-top: 0;
+    }
+    .projects{
+        flex-direction: column;
+    }
+    .projects .tricards{
+        display: flex;
+        flex-direction: column;
+        padding:  0 20px;
+        display: flex !important;
+    }
+    .precedent,.next{
+        display: none !important;
+    }
+    .projects .cardProject{
+        margin-bottom: 10px;
+    }
+    .projects .cardProject:hover{
+        transform: none;
+    }
+}
 @media only screen and (max-height: 1000px) {
     .card {
         width: 90%;
@@ -797,7 +866,3 @@
       }
       
 }
-
-
-
-
