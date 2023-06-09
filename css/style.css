@@ -757,10 +757,17 @@
         display: flex;
         flex-direction: column-reverse;
     }
+    .indexContent p{
+        font-size: 19px;
+    }
     .indexContent .presentation{
         width: 100%;
         padding:15px;
     }
+    .indexContent .presentation p{
+        line-height: 1.2;
+    }
+
     .presentation>h1,.presentation>h3{
         text-align: center;
     }
@@ -774,6 +781,10 @@
     /*  */
     .animated-border:hover{
         animation: none;
+    }
+    .card{
+        border-radius: 30px;
+        padding:20px;
     }
     .card .head{
         display: flex;
@@ -801,9 +812,40 @@
     }
     .projects .cardProject{
         margin-bottom: 10px;
+        border-radius: 15px;
+        padding:20px
     }
     .projects .cardProject:hover{
         transform: none;
+    }
+    #skills img{
+        width: 50px;
+    }
+}
+@media only screen and (max-width : 450px){
+    .card{
+        padding:0;
+    }
+    .presentationModule .head .headText h3{
+        font-size: 18px;
+    }
+    .presentationModule .head .headText p{
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+    .softSkills .mate{
+        font-size: 17px;
+        padding: 3px 5px;
+    }
+    .projects .cardProject{
+        padding:15px
+    }
+
+    #skills img{
+        width: 35px;
+    }
+    #skills .cardSkils{
+        padding:3px;
     }
 }
 @media only screen and (max-height: 1000px) {
