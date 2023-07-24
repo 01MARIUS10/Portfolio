@@ -1,6 +1,6 @@
-let debug = document.querySelector("#debug");
-debug.innerHTML = `size is (${window.innerWidth},${window.innerHeight})`;
-debug.setAttribute("style", "background:red;");
+// let debug = document.querySelector("#debug");
+// debug.innerHTML = `size is (${window.innerWidth},${window.innerHeight})`;
+// debug.setAttribute("style", "background:red;");
 
 let service = {
     sliceText: (text) => {
