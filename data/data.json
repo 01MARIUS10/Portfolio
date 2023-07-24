@@ -26,7 +26,7 @@
             "website":"https://01marius10-mypizzeria.netlify.app"
         },
         {
-            "title":"Pizzeria Admin web Application",
+            "title":"Pizzeria Admin web",
             "image":"./image/project/projectImage.png",
             "description":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit quo placeat, magni ipsa quasi corrupti esse ducimus quod suscipit excepturi blanditiis.",
             "skills":[
@@ -38,7 +38,7 @@
             "github":"https://github.com"
         },
         {
-            "title":"MVC architecture implementation",
+            "title":"MVC implementation",
             "image":"./image/project/projectImage.png",
             "description":"This project showcases a basic PHP MVC architecture. The MVC pattern divides the application into three interconnected components: the Model, the View, and the Controller. ",
             "skills":[
