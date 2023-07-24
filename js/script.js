@@ -10,8 +10,8 @@ let service = {
 };
 
 let gofetch = async () => {
-    // fetch('https://01marius10.github.io/Portfolio/data/data.json')
-    fetch("/data/data.json")
+    fetch("https://01marius10.github.io/Portfolio/data/data.json")
+        // fetch("/data/data.json")
         .then((response) => response.json())
         .then((data) => {
             View.init(data.projects);
