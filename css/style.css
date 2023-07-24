@@ -292,25 +292,28 @@
         content: " ";
         top: 0;
         left: 0;
-        width: 147px;
-        height: 155px;
+        width: 140px;
+        height: 166px;
         background: darkkhaki;
         border: solid 2px #710909;
         border-radius: 50%;
-        transform: rotate3d(3, -1, -1, 124deg) translate(-23px, -142px);
+        /* transform: rotate3d(3, -1, -1, 124deg) translate(-23px, -142px); */
+
+        transform: rotate3d(3, -1, -1, 121deg) translate(-28px, -201px); 
         z-index: -1;
+        
     }
     .presentationModule .head .r {
         position: absolute;
         content: " ";
         top: 0;
         left: 0;
-        width: 142px;
-        height: 180px;
+        width: 180px;
+        height: 184px;
         background: #710909;
         border: solid 2px yellow;
         border-radius: 50%;
-        transform: rotate3d(1, 1, -1, -177deg) translate(142px, 210px);
+        transform: rotate3d(1, 1, -1, -277deg) translate(-101px, 116px);
         z-index: -1;
       }
     .presentationModule .head .g{
@@ -318,12 +321,12 @@
         content: " ";
         top: 0;
         left: 0;
-        width: 105px;
-        height: 83px;
+        width: 143px;
+        height: 71px;
         background: #710909;
         border: solid 2px yellow;
         border-radius: 50%;
-        transform: rotate3d(1, -1, 3, 46deg) translate(68px, 2px);
+        transform: rotate3d(1, 1, 2, 46deg) translate(24px, 62px);
         z-index: -2;
     }
     .presentationModule .head .image:after{
@@ -331,12 +334,12 @@
         content: " ";
         top: 0px;
         left: 0px;
-        width: 293px;
-        height: 152px;
+        width: 120px;
+        height: 204px;
         background: darkkhaki;
         border: solid 2px #710909;
         border-radius: 50%;
-        transform: rotate3d(-1, 1, 1, 142deg) translate(-259px,140px);
+        transform: rotate3d(-1, 1, 1, 47deg) translate(98px,-44px);
         z-index: -2;
     }
     .presentationModule .head .image img{
