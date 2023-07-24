@@ -1,7 +1,8 @@
 {
     "projects":[
+
         {
-            "title":"Gestion des A",
+            "title":"School bus App",
             "image":"./image/project/projectImage.png",
             "description":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit quo placeat, magni ipsa quasi corrupti esse ducimus quod suscipit excepturi blanditiis.",
             "skills":[
@@ -9,12 +10,23 @@
                 "./image/skills/css.png",
                 "./image/skills/vuejs.png",
                 "./image/skills/laravel.png"
+            ],
+            "github":"https://github.com"
+        },
+        {
+            "title":"Pizzeria web Application",
+            "image":"./image/project/projectImage.png",
+            "description":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit quo placeat, magni ipsa quasi corrupti esse ducimus quod suscipit excepturi blanditiis.",
+            "skills":[
+                "./image/skills/html.png",
+                "./image/skills/css.png",
+                "./image/skills/vuejs.png"
             ],
             "github":"https://github.com",
             "website":"https://01marius10-mypizzeria.netlify.app"
         },
         {
-            "title":"Gestion des B",
+            "title":"Pizzeria Admin web Application",
             "image":"./image/project/projectImage.png",
             "description":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit quo placeat, magni ipsa quasi corrupti esse ducimus quod suscipit excepturi blanditiis.",
             "skills":[
@@ -26,98 +38,35 @@
             "github":"https://github.com"
         },
         {
-            "title":"Gestion des C",
+            "title":"MVC architecture implementation",
+            "image":"./image/project/projectImage.png",
+            "description":"This project showcases a basic PHP MVC architecture. The MVC pattern divides the application into three interconnected components: the Model, the View, and the Controller. ",
+            "skills":[
+                "./image/skills/html.png",
+                "./image/skills/css.png",
+                "./image/skills/php.png"
+            ],
+            "github":"https://github.com/01MARIUS10/mariusMVC"
+        },
+        {
+            "title":"Todo App ",
             "image":"./image/project/projectImage.png",
             "description":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit quo placeat, magni ipsa quasi corrupti esse ducimus quod suscipit excepturi blanditiis.",
             "skills":[
                 "./image/skills/html.png",
                 "./image/skills/css.png",
-                "./image/skills/vuejs.png",
-                "./image/skills/laravel.png"
+                "./image/skills/vuejs.png"
             ],
             "github":"https://github.com"
         },
         {
-            "title":"Gestion des D",
+            "title":"School Administration App",
             "image":"./image/project/projectImage.png",
             "description":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit quo placeat, magni ipsa quasi corrupti esse ducimus quod suscipit excepturi blanditiis.",
             "skills":[
                 "./image/skills/html.png",
                 "./image/skills/css.png",
-                "./image/skills/vuejs.png",
-                "./image/skills/laravel.png"
-            ],
-            "github":"https://github.com"
-        },
-        {
-            "title":"Gestion des E",
-            "image":"./image/project/projectImage.png",
-            "description":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit quo placeat, magni ipsa quasi corrupti esse ducimus quod suscipit excepturi blanditiis.",
-            "skills":[
-                "./image/skills/html.png",
-                "./image/skills/css.png",
-                "./image/skills/vuejs.png",
-                "./image/skills/laravel.png"
-            ],
-            "github":"https://github.com"
-        },
-        {
-            "title":"Gestion des F",
-            "image":"./image/project/projectImage.png",
-            "description":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit quo placeat, magni ipsa quasi corrupti esse ducimus quod suscipit excepturi blanditiis.",
-            "skills":[
-                "./image/skills/html.png",
-                "./image/skills/css.png",
-                "./image/skills/vuejs.png",
-                "./image/skills/laravel.png"
-            ],
-            "github":"https://github.com"
-        },
-        {
-            "title":"Gestion des G",
-            "image":"./image/project/projectImage.png",
-            "description":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit quo placeat, magni ipsa quasi corrupti esse ducimus quod suscipit excepturi blanditiis.",
-            "skills":[
-                "./image/skills/html.png",
-                "./image/skills/css.png",
-                "./image/skills/vuejs.png",
-                "./image/skills/laravel.png"
-            ],
-            "github":"https://github.com"
-        },
-        {
-            "title":"Gestion des H",
-            "image":"./image/project/projectImage.png",
-            "description":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit quo placeat, magni ipsa quasi corrupti esse ducimus quod suscipit excepturi blanditiis.",
-            "skills":[
-                "./image/skills/html.png",
-                "./image/skills/css.png",
-                "./image/skills/vuejs.png",
-                "./image/skills/laravel.png"
-            ],
-            "github":"https://github.com"
-        },
-        {
-            "title":"Gestion des I",
-            "image":"./image/project/projectImage.png",
-            "description":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit quo placeat, magni ipsa quasi corrupti esse ducimus quod suscipit excepturi blanditiis.",
-            "skills":[
-                "./image/skills/html.png",
-                "./image/skills/css.png",
-                "./image/skills/vuejs.png",
-                "./image/skills/laravel.png"
-            ],
-            "github":"https://github.com"
-        },
-        {
-            "title":"Gestion des J",
-            "image":"./image/project/projectImage.png",
-            "description":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit quo placeat, magni ipsa quasi corrupti esse ducimus quod suscipit excepturi blanditiis.",
-            "skills":[
-                "./image/skills/html.png",
-                "./image/skills/css.png",
-                "./image/skills/vuejs.png",
-                "./image/skills/laravel.png"
+                "./image/skills/vuejs.png"
             ],
             "github":"https://github.com"
         }

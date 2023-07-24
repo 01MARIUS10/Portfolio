@@ -14,11 +14,13 @@
         <div id="0" class="index box ">
             <div class="indexContent">
                 <div class="presentation">
-                    <h3>Hi!   I'm RAZAFITSALAMA Marius </h3>
-                    <h1>Backend Developer</h1>
+                    <div class="name">
+                        <h3>Hi!   I'm RAZAFITSALAMA Marius </h3>
+                        <h1>Web Developer</h1>
+                    </div>
                     <p>
                         Passionate about creating efficient, scalable, and reliable systems ,<br>
-                        I specialize in the Laravel PHP web framework and strive to build seamless processes that enhance the user experience. <br> 
+                        I specialize in the <span class="accentText">Laravel PHP</span> web framework and <span class="accentText">Vue js</span> , strive to build seamless processes that enhance the user experience. <br> 
                         In addition to my technical expertise, I am also <span class="accentText"> highly versatile</span> and have a <span class="accentText">strong ability to work well within a team.</span> <br>
                         Below are the programming languages I work with:
                     </p>
@@ -41,9 +43,8 @@
                         <div class="cardSkils">
                             <img src="./image/skills/laravel.png" alt="">
                         </div>
-                        
                     </div>
-                    <button onclick="cardAffiche.showThatCard(1);">
+                    <button onclick="View.showPages(1);">
                         <span>See my work</span>  
                         <img src="./image/arrow-28-24.png" alt="">
                     </button>
@@ -56,25 +57,25 @@
         <div id="1" class="card presentationModule cardActive box noneThat">
             <div class="head">
                 <div class="headText">
-                    <h3>Are You in Need of a Skilled Backend Developer?</h3>
+                    <h3>Are You in Need of a Skilled Developer?</h3>
                     <p class="hidden-w-900">Your Search Ends Here!" <span class="emoji">&#x1F642;</span> </p>
                     <p> I have had the opportunity to work on a variety of exciting 
                         projects that have allowed me to showcase my skills and 
-                        creativity as a backend developer. </p>
-                    <p>Dedicated and passionate about backend development, my approach is driven 
+                        creativity as a front and backend developer. </p>
+                    <p>Dedicated and passionate about coding development, my approach is driven 
                         by an insatiable curiosity and a profound appreciation for the art of 
                         programming.</p>
                     <div class="softSkills">
-                        <span class="mate">methodical</span>
-                        <span class="mate">analytical mindset</span>
+                        <span class="mate">Methodical</span>
+                        <span class="mate">Analytical mindset</span>
                         <span class="mate">Collaboration</span>
-                        <span class="mate">dynamic</span>
+                        <span class="mate">Dynamic</span>
                     </div>
                 </div>
                 <div class="image">
                     <div class="r"></div>
                     <div class="g"></div>
-                    <img class="animated-border" src="./image/avatar/avatar5.jpeg" alt="" onclick="cardAffiche.showThatCard(0)">
+                    <img class="animated-border" src="./image/avatar/avatar5.jpeg" alt="" onclick="View.showPages(0)">
                 </div>
             </div>
             <div id="projects" class="projects">
@@ -91,6 +92,7 @@
         <div id="4" class="card cardInactive cardInactive3 box noneThat">
         </div>
     </div>
+    <!-- <p id="debug"></p> -->
     <script src="js/script.js"></script>
 </body>
 </html>
