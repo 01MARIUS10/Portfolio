@@ -1,4 +1,5 @@
 @import url(./variable.css);
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:40");
 
 @keyframes degradeOpacity {
     from{opacity:1;}
@@ -132,7 +133,59 @@
 .emoji{
     font-size: 26px;
 }
-@media only screen and (max-width: 2400px) {
+
+/*animation*/
+.ml6 {
+    position: relative;
+    font-weight: 900;
+    font-size: 3.3em;
+  }
+  
+  .ml6 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.2em;
+    padding-right: 0.05em;
+    padding-bottom: 0.1em;
+    overflow: hidden;
+  }
+  
+  .ml6 .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
+
+  
+
+
+  
+  /*
+  text-shadow forked from: https://codepen.io/teetteet/details/dFICw#forkline
+  */
+  .superShadow {
+    text-shadow:     0 1px 0 hsl(174,5%,80%),
+                       0 2px 0 hsl(174,5%,75%),
+                       0 3px 0 hsl(174,5%,70%),
+                       0 4px 0 hsl(174,5%,66%),
+                       0 5px 0 hsl(174,5%,64%),
+                       0 6px 0 hsl(174,5%,62%),
+                       0 7px 0 hsl(174,5%,61%),
+                       0 8px 0 hsl(174,5%,60%),
+      
+                       0 0 5px rgba(0,0,0,.05),
+                      0 1px 3px rgba(0,0,0,.2),
+                      0 3px 5px rgba(0,0,0,.2),
+                     0 5px 10px rgba(0,0,0,.2),
+                    0 10px 10px rgba(0,0,0,.2),
+                    0 20px 20px rgba(0,0,0,.3);
+  }
+  
+  strong{
+    font-size:200px;
+  }
+
+
+@media only screen and (max-width: 2600px) {
     
     
     /* ------------------------------------------- */
@@ -156,7 +209,7 @@
     .indexContent .presentation>* {
         margin-bottom: 20px;
     }
-    .indexContent h3 {
+    .indexContent h3 ,.indexContent .letters{
         font-size: 30px;
         font-size: 28px; /* Taille du titre "Hi I'm RAZAFITSALAMA Marius" */
         font-weight: lighter; /* Éventuellement, pour mettre en gras */
@@ -641,7 +694,7 @@
     
     /* ===================== */
     .projects {
-        padding:0 70px;
+        padding:0 50px;
         height: 60%;
         position:relative;
         display: flex;

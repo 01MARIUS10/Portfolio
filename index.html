@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/reboot.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./css/reboot.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
     <link rel="shortcut icon" href="./image/avatar/avatar5.jpeg" type="image/x-icon">
     <title>MARIUS </title>
 </head>
@@ -15,8 +16,17 @@
             <div class="indexContent">
                 <div class="presentation">
                     <div class="name">
-                        <h3>Hi!   I'm RAZAFITSALAMA Marius </h3>
-                        <h1>Web Developer</h1>
+                        <!-- <h3 id="name">Hi!   I'm RAZAFITSALAMA Marius </h3> -->
+                        <!-- <h1>Web Developer</h1> -->
+                        
+                        <h1>
+                            <span is="type-async" id="type-text"  class="letters">...</span>
+                            <span class="blinking-cursor">_</span>
+                        </h1>
+                        <h1>
+                            <span is="type-async" id="type-text2">...</span>
+                            <span class="blinking-cursor">_</span>
+                        </h1>
                     </div>
                     <p>
                         Passionate about creating efficient, scalable, and reliable systems ,<br>
@@ -45,7 +55,7 @@
                         </div>
                     </div>
                     <button onclick="View.showPages(1);">
-                        <span>See my work</span>  
+                        <span  class="">See my work</span>  
                         <img src="./image/arrow-28-24.png" alt="">
                     </button>
                 </div>
@@ -94,5 +104,6 @@
     </div>
     <!-- <p id="debug"></p> -->
     <script src="js/script.js"></script>
+    <script src="js/animation.js"></script>
 </body>
 </html>

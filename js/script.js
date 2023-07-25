@@ -10,8 +10,8 @@ let service = {
 };
 
 let gofetch = async () => {
-    fetch("https://01marius10.github.io/Portfolio/data/data.json")
-        // fetch("/data/data.json")
+    // fetch("https://01marius10.github.io/Portfolio/data/data.json")
+    fetch("/data/data.json")
         .then((response) => response.json())
         .then((data) => {
             View.init(data.projects);
@@ -23,21 +23,6 @@ let gofetch = async () => {
             return false;
         });
 };
-
-// let ajustCard = () => {
-//     const cards = document.querySelectorAll(".cardProject");
-//     let max = 0;
-//     cards.forEach((e) => {
-//         max = max > e.offsetHeight ? max : e.offsetHeight;
-//     });
-//     cards.forEach((e) => {
-//         if (e.offsetHeight != 0) {
-//             console.log(max, e.offsetHeight);
-//             e.style.height = `${max}px`;
-//             console.log(e.offsetHeight);
-//         }
-//     });
-// };
 
 var projects = {
     activeTricards: 1,
@@ -107,8 +92,6 @@ var projects = {
         b.classList.toggle("cardActive");
     },
 };
-
-var cssHelper = {};
 
 var View = {
     projects: [],
