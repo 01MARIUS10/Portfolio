@@ -1,7 +1,3 @@
-// let debug = document.querySelector("#debug");
-// debug.innerHTML = `size is (${window.innerWidth},${window.innerHeight})`;
-// debug.setAttribute("style", "background:red;");
-
 let service = {
     sliceText: (text) => {
         nbr = window.innerWidth < 900 ? 250 : 150;
@@ -9,9 +5,12 @@ let service = {
     },
 };
 
-let gofetch = async () => {
-    // fetch("https://01marius10.github.io/Portfolio/data/data.json")
-    fetch("/data/data.json")
+let gofetch = () => {
+    let dataSource =
+        window.location.protocol == "http:"
+            ? "/data/data.json"
+            : "https://01marius10.github.io/Portfolio/data/data.json";
+    fetch(dataSource)
         .then((response) => response.json())
         .then((data) => {
             View.init(data.projects);
@@ -55,7 +54,6 @@ var projects = {
             e.setAttribute("style", "");
         });
         this.checkButton();
-        console.log("showtricard");
     },
     nextShowTriCards: function () {
         this.dismisOpacity();
@@ -179,7 +177,6 @@ var View = {
             });
             nodeEl.insertBefore(tricard, next);
         });
-        console.log("create tri card", nodeEl);
     },
     getCardProject(project) {
         let div = document.createElement("div");
