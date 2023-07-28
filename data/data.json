@@ -57,7 +57,8 @@
                 "./image/skills/css.png",
                 "./image/skills/vuejs.png"
             ],
-            "github":"https://github.com"
+            "github":"https://github.com",
+            "website":"https://01marius10-mytodoapp.netlify.app"
         },
         {
             "title":"School Administration App",
